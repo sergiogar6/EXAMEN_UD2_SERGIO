@@ -86,9 +86,9 @@ public class Examen {
             if (!error) {
                 System.out.println("MARCADOR: " + score + "-" + score_ia);
             }
-            //Cuando el resultado de los scores sume 3 acabe el bucle
+            //Cuando el resultado de alguno sea 2 acabe el bucle (es decir ha ganado)
             System.out.println(" ");
-            if (score_ia+score == 3) {
+            if (score_ia == 2 || score == 2) {
                 break;
             }
 
